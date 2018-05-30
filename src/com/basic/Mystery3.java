@@ -15,6 +15,12 @@ public class Mystery3 {
 	 System.out.print( row % 2 == 1 ? "<" : ">" );
 	 ++column;
 	 } 
-	 }
-	 }
-	}
+	
+		
+--row;
+System.out.println();
+} 
+} 
+}
+
+
