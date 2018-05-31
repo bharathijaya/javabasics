@@ -33,7 +33,5 @@ public class Employee {
 		emp1.setSalary(salary);	
 		System.out.println(salary);
 		}
-	}
-	
 
-
+}
