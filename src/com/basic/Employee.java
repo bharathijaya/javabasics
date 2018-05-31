@@ -13,7 +13,12 @@ public class Employee {
 		return salary;
 	}
 	public void setSalary(double salary) {
-		this.salary = salary;
+		if(salary<0) {
+			this.salary = 0;
+		}else {
+			this.salary = salary;
+		}
+		
 	}
 	public static void main(String[] args)
 	{
