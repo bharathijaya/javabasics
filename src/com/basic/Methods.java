@@ -6,6 +6,6 @@ public class Methods {
 	}
  public static void main(String[] args) {
 	 Methods m1 = new Methods();
-	 System.out.println("Is 4 a eve "+m1.isEven);
+	 System.out.println("Is 4 a eve "+m1.isEven(4));
  }
 }
