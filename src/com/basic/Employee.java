@@ -1,53 +1,34 @@
 package com.basic;
 
 public class Employee {
-	String firstname;
-	String lastname;
-	Double salary;
-	//salary = 10000;
-	private char[] set;
-	private char[] get;
-	public String getFirstname() {
-		return firstname;
+	private String name;
+	private double salary;
+	public String getName() {
+		return name;
 	}
-	public void setFirstname(String firstname) {
-		this.firstname = firstname;
+	public void setName(String name) {
+		this.name = name;
 	}
-	public String getLastname() {
-		return lastname;
-	}
-	public void setLastname(String lastname) {
-		this.lastname = lastname;
-	}
-	public Double getSalary() {
+	public double getSalary() {
 		return salary;
 	}
-	public void setSalary(Double salary) {
+	public void setSalary(double salary) {
 		this.salary = salary;
-	}
-	if(salary>0)
-	{
-		System.out.println(set);	
-	}
-	else
-	{
-		System.out.println(get);
 	}
 	public static void main(String[] args)
 	{
-		Employee employee1 = new Employee();
-		Employee employee2 = new Employee();
-		
-		System.out.println(employee1.salary);
-		System.out.println(employee2.salary);
-		
-		
-		
+		Employee emp1 = new Employee();
+		emp1.setName("name");
+		emp1.setSalary(10000);
+		Employee emp2 = new Employee();
+		emp2.setName("name");
+		emp2.setSalary(20000);
+		double salary = emp1.getSalary();
+		salary = salary*1.1;
+		emp1.setSalary(salary);	
+		System.out.println(salary);
+		}
+	}
 	
-	
-		
-		
-		
-		
 
 
