@@ -1,16 +1,13 @@
 package com.basic;
 
 public class Multiple {
+	public boolean isMultiple(int one,int two) {
+		return two % one == 0 ? true : false;
+	}
+
 	public static void main(String[]args) {
-		int num=2;
-		if(num % 2 == 0)
-		{
-			System.out.println("true");
-		}
-		else
-		{
-			System.out.println("false");
-		}
+		Multiple m1 = new Multiple();
+		System.out.println("Is 4 a multiple of 2"+m1.isMultiple(4,2));
 		
 	}
 
