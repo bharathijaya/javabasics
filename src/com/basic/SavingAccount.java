@@ -26,6 +26,12 @@ public class SavingAccount {
 		sa2.calculateMonthlyInterest();
 		sa1.showbalance();
 		sa2.showbalance();
-		
+		SavingAccount.modifyInterestRate(5);
+		sa1.showbalance();
+		sa2.showbalance();
+		sa1.calculateMonthlyInterest();
+		sa2.calculateMonthlyInterest();
+		sa1.showbalance();
+		sa2.showbalance();
 	}
 }
