@@ -10,7 +10,7 @@ public class Rectangle {
 		return length;
 	}
 	public void setLength(float length) {
-		if(length<0.0) {
+		if((length>0.0)&&(length<20)) {
 			this.length = 0;
 		}else {
 			this.length = length;
@@ -21,8 +21,8 @@ public class Rectangle {
 		return width;
 	}
 	public void setWidth(float width) {
-		if(width>20.0) {
-			this.width = 20;
+		if((width>0.0)&& (width<20)){
+			this.width = 0;
 		}else {
 			this.width = width;
 		}
@@ -40,7 +40,7 @@ public float getarea() {
 public static void main(String[] args)
 {
 	Rectangle r1= new Rectangle();
-    r1.setLength(5);
+    r1.setLength(-5);
     r1.setWidth(5);
 
    
