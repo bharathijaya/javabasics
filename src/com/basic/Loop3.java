@@ -7,6 +7,10 @@ public class Loop3 {
 		while ( i <= 10 );
 		++i;
 		}
+	
+		      Base a = new Derived();
+		      System.out.println(a instanceof Derived);
+		   }
 
 
 	}
