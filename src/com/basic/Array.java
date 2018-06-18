@@ -1,5 +1,7 @@
 package com.basic;
 
+import java.util.Collection;
+
 public class Array {
 	public static void main(String[]args) {
 int n=1234;
@@ -21,4 +23,4 @@ for( i=0;i<10;i++) {
  }
 
 }
-}
+
